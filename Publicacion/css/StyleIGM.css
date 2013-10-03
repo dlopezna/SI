@@ -1,0 +1,170 @@
+﻿body
+{
+	margin:0;
+	padding:0;
+}
+
+#login
+{
+	position: absolute;	
+	left:50%;
+	top:35%;
+	width:300px;
+	height:200px;
+	margin-left:-150px;
+	margin-top:-100px;	
+	background: #e8f4ff;
+	border: solid 1px #94c9ff;		
+	z-index:100;
+	}
+#cabecera
+{
+border: solid 0px #94c9ff;
+margin:0px;
+	}
+
+
+#marco
+{
+	width:98%;
+	position:fixed;
+	margin:1px;
+	height:600px;
+	border: solid 1px #94c9ff;
+}
+#menuMaster
+{
+	vertical-align:top;
+	margin:1px;
+	width:100%;
+	height:600px;
+	border: solid 0px #94c9ff;
+	
+}
+#principal
+{
+	border: solid 0px #94c9ff;
+	vertical-align:top;
+	height:600px;
+	margin:1px;
+	width:99%;
+	}
+	
+#superior
+{
+	width:100%;
+	border-color:Scrollbar;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+	z-index:0;
+	}
+#inferior
+{
+	width:100%;
+	border-color:Scrollbar;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+}
+#titular
+{
+	border: solid 1px #94c9ff;
+	margin: 3px;
+	padding: 5px;
+	vertical-align: middle;
+	background-color: #E4E4E4;
+	font-family: Verdana;
+	color: #003160;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+
+#menu
+{
+	border: solid 1px #94c9ff;
+	margin: 3px;
+	padding: 5px;
+	vertical-align: middle;
+	background-color: #E4E4E4;
+	font-family: Verdana;
+	color: #003160;
+}
+#centro
+	{
+
+		margin:3px;
+		border: solid 1px #94c9ff;
+		float:left;
+		}
+		
+#izda
+{
+	width:31%;
+	border: solid 1px #94c9ff;
+	float:left;
+	margin:1px;
+	height:100%;
+}
+#dcha
+{
+	width:68%;
+	border: solid 1px #94c9ff;
+	float:left;
+	margin:1px;
+	height:100%;
+}
+#inventario
+{
+	border: solid 0px #94c9ff;
+	float:left;
+	margin:3px;
+	}
+
+#niveles
+{
+	width:40%;
+	border-color:Scrollbar;
+	float:left;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+}
+
+#contenido
+{
+	border: 1px solid Scrollbar;
+	float:left;
+	width:55%;
+	margin-top: 5px;
+	margin-left:5px;
+	
+}
+
+
+
+	
+	#divIncidencia
+	{
+		padding:5px;
+		border: solid 1px #94c9ff;
+		z-index:100;
+		background-color:#e8f4ff;
+		width:99%;
+	}
+		
+	
+.altaInventario
+{
+	background-color:#e8f4ff;
+	border: solid 1px #94c9ff;
+	padding:5px;
+	
+	}
+#trans
+{
+	filter:alpha(60);
+	}

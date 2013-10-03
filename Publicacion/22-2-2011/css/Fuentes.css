@@ -1,0 +1,120 @@
+﻿.titulos
+{
+	font-family: Verdana;
+	font-size: larger;
+	font-weight: bold;
+	color: #003160;
+}
+
+.subtitulos
+{
+	font-size:14px;
+	font-style:italic;
+	font-weight:bold;
+	color:#003160;
+	text-decoration: underline;
+}
+.error
+{
+	font-weight:bold;
+	color:Red;
+	}
+.aviso
+{
+	font-size:16px;
+	font-weight:bold;
+	color:Orange;
+}	
+	
+.txtLabel
+{
+	font-weight:bold;
+	color:#003160;
+}
+
+.txtOutput
+{
+	font-weight:bold;
+	color:#999999;
+	border:1px;
+	border-style:solid;
+	border-color:#003160;
+}
+
+
+.txtInput
+{
+	color:Black;
+}
+	.explicacion
+	{
+	font-size:10px;
+	color:#999999;	
+	}
+	.listview-head
+{
+	background-color: #e8f4ff;
+	text-decoration: underline;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: #999999;
+	border-spacing: 0px;
+	text-align: left;
+}
+	.listview-body
+	{
+	font-weight:bold;
+	color:#003160;
+	}
+a:link
+{
+	font-weight: bold;
+	color: #94c9ff;
+}
+/*input
+{
+	border: 1px inset #FFCC00;
+}*/
+
+select
+{
+	border: thin solid #FFCC00;
+}
+.seleccion
+{
+	border: thin inset #FFCC00;
+	background-color: #FFEEA8;
+	color:#003160;
+	font-weight:bold;
+}
+.edicion .nuevo
+{
+	border: thin inset #FFCC00;
+	background-color: #FFEEA8;
+	color:Black;
+}
+.elemento
+{
+	border: thin solid #FFCC00;
+	background-color: #FFFBEA;
+	color: #800000;
+}
+.alterno
+{
+	border: thin solid #C0C0C0;
+	background-color: #E4E4E4;
+	color: #800000;
+}
+.elementoI
+{
+	font-size: 14px;
+	color: #999999;
+}
+.transparente
+{
+	vertical-align: middle;
+	border: solid 1px black;
+	filter: alpha(opacity=100);
+	
+                        
+                        }

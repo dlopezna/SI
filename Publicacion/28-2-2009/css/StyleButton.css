@@ -1,0 +1,57 @@
+﻿/* Estilo de los Botones (de tipo StyleButton) */
+
+.stylebutton
+{	
+	background-position:0 0;
+	margin:2px;
+}
+
+.stylebutton .left
+{
+	float:left;
+	background-image:url("../images/btn_left.gif");
+	background-repeat:no-repeat;
+	background-position:inherit;
+	width:8px;
+	height:21px;
+}
+
+.stylebutton .text
+{
+	float:left;
+	background-image:url("../images/btn_text.gif");
+	background-repeat:repeat-x;
+	background-position:inherit;	
+	height:21px;
+}
+
+.stylebutton .right
+{
+	float:left;
+	background-image:url("../images/btn_right.gif");
+	background-repeat:no-repeat;
+	background-position:inherit;
+	width:8px;
+	height:21px;
+}
+
+.stylebutton .text input
+{
+	float:left;
+	position:relative;
+	color:#2C82D7;	
+	background-image:url("../images/btn_text.gif");
+	background-repeat:repeat-x;
+	background-position:inherit;
+	background-color:Transparent;	
+	height:21px;
+	border:0px !important;
+	font-weight:bold;
+	text-decoration:none;		
+}
+
+.stylebutton .text input:hover
+{
+	text-decoration:underline;
+	cursor:hand;
+}

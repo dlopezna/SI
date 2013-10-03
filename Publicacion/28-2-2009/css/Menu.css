@@ -1,0 +1,50 @@
+﻿
+/* ------------------------------------------------------------------------------------
+	MENU
+------------------------------------------------------------------------------------ */
+ 
+ .AspNet-Menu
+{    
+    display: block;    
+    list-style: none;
+    font-size:medium;
+	color:#003160;
+	font-family:Verdana;
+}
+
+.AspNet-Menu-Hover
+{
+		color:#003160;
+	width:100%;
+	font-size:medium;
+	font-weight:bold;
+    background: #F0F0F0;
+	border: solid 1px #94c9ff;
+}
+
+.AspNet-Menu-Leaf
+{
+	width:100%;
+	font-size:small;
+		color:#003160;
+}
+
+.AspNet-Menu-Parent
+{
+	font-weight:bold;
+	width:100%;
+	font-size:medium;
+		color:#003160;
+}
+.AspNet-Menu-Root
+{
+	color:#003160;
+	font-weight:bold;
+	width:100%;
+	font-size:medium;
+}
+
+.AspNet-Menu-Selected
+{
+	color:#94c9ff;
+}

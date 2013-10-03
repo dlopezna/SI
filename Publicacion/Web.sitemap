@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="Default.aspx" title="Administración"  description="">
+        <siteMapNode url="Incidencias.aspx" title="Incidencias"  description="" />
+      <siteMapNode url="Inventario.aspx" title="Inventarios"  description=""/>
+        
+        <siteMapNode url="Usuarios.aspx" title="Usuarios"  description="" />
+        <siteMapNode url="Alertas.aspx" title="Definición KPI"  description="" />
+    </siteMapNode>
+</siteMap>

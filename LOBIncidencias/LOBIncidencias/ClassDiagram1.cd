@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Comment CommentText="Una planta es una entidad administrativa">
+    <Position X="5.968" Y="9.714" Height="0.781" Width="1.492" />
+  </Comment>
+  <Comment CommentText="Del seguimiento diario se deben lanzar las incidencias">
+    <Position X="0.541" Y="0.5" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Del lanzamiento de incidencias deben crearse las ordenes de trabajo">
+    <Position X="6.029" Y="2.288" Height="0.75" Width="1.7" />
+  </Comment>
+  <Comment CommentText="Del mantenimiento deben crearse las ordenes de trabajo">
+    <Position X="3.447" Y="0.562" Height="0.75" Width="1.7" />
+  </Comment>
+  <Class Name="LOBIncidencias.Incidencia">
+    <Position X="8.25" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAgAAAAADAAAEUACAAAABAABEAAAAAKEA=</HashCode>
+      <FileName>Incidencia.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LOBIncidencias.Inversor">
+    <Position X="1.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QEAAAQAAAAAIAAAACAAAAiAAAAAAAgAABAAAAABAAAA=</HashCode>
+      <FileName>Inversor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LOBIncidencias.String">
+    <Position X="3.75" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAIAAAACAAAEGAAQDAAAAAABAEAAAAAAAA=</HashCode>
+      <FileName>String.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Inversor" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LOBIncidencias.Seguidor">
+    <Position X="8.25" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAICAAASAAAACAAAQAAAAIABAAAAAAACAA=</HashCode>
+      <FileName>Seguidor.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="String" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LOBIncidencias.Panel">
+    <Position X="10.5" Y="6.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAgAAAAIAAAIAAAACAAAAKAAAACAAAAABAAgAAAAIAA=</HashCode>
+      <FileName>Panel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LOBIncidencias.OrdenTrabajo">
+    <Position X="3" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIAAAgQAAAAFAAAEACAAAAQnAoCAAgAEgACAABABCAA=</HashCode>
+      <FileName>OrdenTrabajo.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Incidencia" />
+      <Property Name="Mantenimiento" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LOBIncidencias.Componente">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QACFAAAAAAAIAJECCgAAADEBAIAAgxAEDBCAAAAAAAA=</HashCode>
+      <FileName>Componente.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LOBIncidencias.Mantenimiento">
+    <Position X="5.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Mantenimiento.cs</FileName>
+    </TypeIdentifier>
+    <ShowAsAssociation>
+      <Property Name="Componente" />
+    </ShowAsAssociation>
+  </Class>
+  <Class Name="LOBIncidencias.Seguimiento">
+    <Position X="0.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAgAARACAAAAAAAAAQAAEiBAAAAAAAEA=</HashCode>
+      <FileName>Seguimiento.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="LOBIncidencias.Planta">
+    <Position X="6" Y="6.5" Width="1.5" />
+    <Compartments>
+      <Compartment Name="Fields" Collapsed="true" />
+      <Compartment Name="Properties" Collapsed="true" />
+    </Compartments>
+    <TypeIdentifier>
+      <HashCode>QAAESEACAABMAgAACAAAACAAAgAAAgAEhBIAAgQAAEo=</HashCode>
+      <FileName>Planta.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>

@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="Inicio"  description="">
+    <siteMapNode url="" title="Configuración"  description="" >
+      <siteMapNode url="Administracion/Incidencias.aspx" title="Incidencias"  description="" />
+      <siteMapNode url="Administracion/Inventario.aspx" title="Inventarios"  description=""/>
+      <siteMapNode url="Administracion/MantenimientoTareas.aspx" title="Mantenimiento" description="Definición de Mantenimientos Preventivos"/>
+    </siteMapNode>
+    <siteMapNode url="" title="Mantenimiento"  description="">
+      <siteMapNode url="Mantenimiento.aspx" title="Preventivos"  description="" />
+      <siteMapNode url="Ordenes.aspx" title="Ordenes Trabajo"  description="" />
+    </siteMapNode>
+    <siteMapNode url="" title="Seguimientos"  description="">
+      <siteMapNode url="Seguimiento.aspx" title="Diarios"  description=""/>
+      <siteMapNode url="HistorialSeguimiento.aspx" title="Historial Seguimiento" description=""/>
+      <siteMapNode url="HistorialIncidencias.aspx" title="Historial Incidencias" description=""/>
+      <siteMapNode url="EstadoActual.aspx" title="Estado Actual" description=""/>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Seguridad"  description="">
+      <siteMapNode url="Seguridad/Usuarios.aspx" title="Usuarios"  description=""/>
+      <siteMapNode url="Seguridad/createuser.aspx" title="Nuevo Usuario"  description=""/>
+      <siteMapNode url="Seguridad/clientes.aspx" title="Clientes"  description=""/>
+    </siteMapNode>
+    <siteMapNode url="" title="Usuarios"  description="">
+      <siteMapNode url="MisAlertas.aspx" title="Definición Alertas"  description="" />
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>

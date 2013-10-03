@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="Default.aspx" title="Inicio"  description="">
+    <siteMapNode url="" title="Definición"  description="" >
+      <siteMapNode url="Administracion/Incidencias.aspx" title="Tipos de Incidencias"  description="" />
+      <siteMapNode url="Administracion/MantenimientoTareas.aspx" title="Tipos de Mantenimiento" description="Definición de Mantenimientos Preventivos"/>
+    </siteMapNode>
+<siteMapNode url="" title="Inventarios"  description="">
+<siteMapNode url="Administracion/Inventario.aspx" title="Plantas"  description=""/>
+<siteMapNode url="Administracion/Almacen.aspx" title="Almacen"  description=""/>
+</siteMapNode>
+    <siteMapNode url="" title="Seguimientos"  description="">
+      <siteMapNode url="Seguimiento.aspx" title="Diarios de plantas"  description=""/>
+      <siteMapNode url="frmIncidencia.aspx" title="Crear Incidencia"  description=""/>
+      <siteMapNode url="Ordenes.aspx" title="Ordenes Trabajo"  description="" />
+<siteMapNode url="Mantenimiento.aspx" title="Preventivos"  description="" />
+</siteMapNode>
+    <siteMapNode url="" title="Historial"  description="">
+      <siteMapNode url="HistorialSeguimiento.aspx" title="Historial Seguimiento" description=""/>
+      <siteMapNode url="HistorialIncidencias.aspx" title="Historial Incidencias" description=""/>
+      <siteMapNode url="EstadoActual.aspx" title="Sunny Portal" description=""/>
+    </siteMapNode>
+
+    <siteMapNode url="" title="Seguridad"  description="">
+      <siteMapNode url="Seguridad/Usuarios.aspx" title="Usuarios"  description=""/>
+      <siteMapNode url="Seguridad/createuser.aspx" title="Nuevo Usuario"  description=""/>
+      <siteMapNode url="Seguridad/clientes.aspx" title="Clientes"  description=""/>
+    </siteMapNode>
+    <siteMapNode url="" title="Usuarios"  description="">
+      <siteMapNode url="MisAlertas.aspx" title="Definición Alertas"  description="" />
+    </siteMapNode>
+
+  </siteMapNode>
+</siteMap>

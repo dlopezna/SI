@@ -1,0 +1,142 @@
+﻿.titulos
+{
+	font-family: Verdana;
+	font-size: larger;
+	font-weight: bold;
+	color: #003160;
+}
+
+.subtitulos
+{
+	font-family:Verdana;
+	font-size:0.9em;
+	font-style:italic;
+	font-weight:bold;
+	color:#003160;
+	text-decoration: underline;
+}
+.error
+{
+	font-family:Verdana;
+	font-size:0.7em;
+	font-weight:bold;
+	color:Red;
+	}
+.aviso
+{
+	font-family:Verdana;
+	font-size:1.4em;
+	font-weight:bold;
+	color:Orange;
+}	
+	
+.txtLabel
+{
+	font-family:Verdana;
+	font-size:0.7em;
+	font-weight:bold;
+	color:#003160;
+}
+
+.txtOutput
+{
+	font-family:Verdana;
+	font-size:0.8em;
+	font-weight:bold;
+	color:#999999;
+	border:1px;
+	border-style:solid;
+	border-color:#003160;
+}
+
+
+.txtInput
+{
+	font-family:Verdana;
+	font-size:0.8em;
+	color:Black;
+}
+	.explicacion
+	{
+	font-family:Verdana;
+	font-size:0.6em;
+	color:#999999;	
+	}
+	.listview-head
+{
+	background-color: #e8f4ff;
+	font-family: verdana;
+	font-size: 0.9em;
+	text-decoration: underline;
+	font-variant: small-caps;
+	text-transform: capitalize;
+	color: #999999;
+	border-spacing: 0px;
+	text-align: left;
+}
+	.listview-body
+	{
+			font-family:Verdana;
+	font-size:0.7em;
+	font-weight:bold;
+	color:#003160;
+	}
+a:link
+{
+	font-family: Verdana;
+	font-size: 0.8em;
+	font-weight: bold;
+	color: #94c9ff;
+}
+input
+{
+	border: 1px inset #FFCC00;
+}
+
+select
+{
+	font-family: verdana;
+	font-size: 0.8em;
+	border: thin solid #FFCC00;
+}
+.seleccion
+{
+	border: thin inset #FFCC00;
+	background-color: #FFEEA8;
+	font-size:0.8em;
+	font-family: verdana;
+	color:#003160;
+	font-weight:bold;
+}
+.edicion .nuevo
+{
+	border: thin inset #FFCC00;
+	background-color: #FFEEA8;
+	font-size:0.8em;
+	font-family: verdana;
+	color:Black;
+}
+.elemento
+{
+	border: thin solid #FFCC00;
+	background-color: #FFFBEA;
+	font-size: 0.8em;
+	font-family: verdana;
+	color: #800000;
+}
+.alterno
+{
+	border: thin solid #C0C0C0;
+	background-color: #E4E4E4;
+	font-size: 0.8em;
+	font-family: verdana;
+	color: #800000;
+}
+.elementoI
+{
+	border: thin solid #FFCC00;
+	font-size: 1em;
+	font-family: verdana;
+	color: #003160;
+	font-weight:bold;
+}

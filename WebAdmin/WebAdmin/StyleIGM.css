@@ -1,0 +1,192 @@
+﻿body
+{
+	margin:0;
+	padding:0;
+}
+
+#login
+{
+padding-left:42%;
+padding-top:20%;
+	
+	}
+
+#marco
+{
+	border-color:Scrollbar;
+	position:fixed;
+	border-width:1px;
+	margin:3px;
+	border-style:solid;
+	padding:5px;
+
+	}
+#superior
+{
+	width:100%;
+	border-color:Scrollbar;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+	z-index:0;
+	}
+#inferior
+{
+	width:100%;
+	border-color:Scrollbar;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+	z-index:0;
+	}
+
+#menu
+{
+	border-color:Scrollbar;
+	border-width:1px;
+	margin:3px;
+	border-style:solid;
+	padding:5px;
+	
+}
+#izda
+{
+	width:55%;
+	border-color:Scrollbar;
+	float:left;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+	z-index:0;
+}
+#dcha
+{
+	border: 1px solid Scrollbar;
+	float:left;
+	width:25%;
+	margin-top: 5px;
+	margin-left:5px;
+	z-index:0;
+	
+}
+
+#niveles
+{
+	width:40%;
+	border-color:Scrollbar;
+	float:left;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+}
+
+#contenido
+{
+	border: 1px solid Scrollbar;
+	float:left;
+	width:55%;
+	margin-top: 5px;
+	margin-left:5px;
+	
+}
+#principal
+{
+	border: 1px solid Scrollbar;
+	float:left;
+	width:80%;
+	margin-top: 5px;
+	padding-left:20%;
+	padding-right:20%;
+	z-index:10;
+	
+	}
+
+#inventario
+{
+	border: 1px solid Scrollbar;
+	float:left;
+	width:60%;
+	margin-top: 5px;
+	padding-left:20%;
+	padding-right:20%;
+	z-index:10;
+	
+	}
+	
+	#divIncidencia
+	{
+		padding:5px;
+		margin-top:10%;
+		border: 1px solid Scrollbar;
+		z-index:100;
+		background-color:#E3EAEB;
+		width:99%;
+	}
+	#divCentral
+	{
+		margin-top:2px;
+		border: 1px solid Scrollbar;
+		background-color:#E3EAEB;
+		
+		}
+	
+.altaInventario
+{
+	background-color:#E3EAEB;
+	border:1px solid Scrollbar;
+	padding:5px;
+	
+	}
+.titulos
+{
+	font-family:Verdana;
+	font-size:larger;
+	font-weight:bold;
+	color:#003160;
+}
+
+.subtitulos
+{
+	font-family:Verdana;
+	font-size:0.9em;
+	font-style:italic;
+	font-weight:bold;
+	color:#003160;
+}
+.error
+{
+	font-family:Verdana;
+	font-size:0.7em;
+	font-weight:bold;
+	color:Red;
+	}
+.txtLabel
+{
+	font-family:Verdana;
+	font-size:0.7em;
+	font-weight:bold;
+	color:#003160;
+}
+
+.txtOutput
+{
+	font-family:Verdana;
+	font-size:0.9em;
+	font-weight:bold;
+	color:Gray;
+	border:1px;
+	border-style:solid;
+	border-color:#003160;
+}
+
+
+.txtInput
+{
+	font-family:Verdana;
+	font-size:0.8em;
+	color:Black;
+}

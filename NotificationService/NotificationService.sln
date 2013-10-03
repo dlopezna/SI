@@ -1,0 +1,24 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NotificationService", "NotificationService\NotificationService.csproj", "{432AE455-BD56-493C-B1BA-108DE3C41F4C}"
+EndProject
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "Setup2", "Setup2\Setup2.vdproj", "{BEA879D7-1080-4CBE-809A-46BE2FCDBC47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{432AE455-BD56-493C-B1BA-108DE3C41F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{432AE455-BD56-493C-B1BA-108DE3C41F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{432AE455-BD56-493C-B1BA-108DE3C41F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{432AE455-BD56-493C-B1BA-108DE3C41F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA879D7-1080-4CBE-809A-46BE2FCDBC47}.Debug|Any CPU.ActiveCfg = Debug
+		{BEA879D7-1080-4CBE-809A-46BE2FCDBC47}.Release|Any CPU.ActiveCfg = Release
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

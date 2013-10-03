@@ -1,0 +1,67 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="IGM.master.cs" Inherits="WebAdmin.IGM" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+ 
+    <title>Sistema SPS</title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <link href="css/Fuentes.css" rel="stylesheet" type="text/css" />
+    <link href="css/Menu.css" rel="stylesheet" type="text/css" />
+    <link href="css/StyleButton.css" rel="stylesheet" type="text/css" />
+   <link href="css/StyleIGM.css" rel="stylesheet" type="text/css" />
+    <script language="javascript" type="text/javascript">
+    function CambiarTamaño(tipo){
+    var image = document.getElementById("imgInfo");
+    if(tipo=='entra')
+        image.src="../Images/info_40.png";
+    else
+     image.src="../Images/info.png";
+    }
+    </script>
+
+</head>
+<body>
+    <form id="form1" runat="server">
+    <asp:ScriptManager ID="ScriptManager1" runat="server" />
+    <div id="marco">
+    <div id="cabecera">
+            <div id="logo">
+             <img src="../Images/logo_planta_100.jpg" alt="Logo" />
+            </div>
+            <div id="nombresite" >
+                <span class="titulos">SISTEMA DE SEGUIMIENTO DE PLANTAS SOLARES</span><br />
+                <asp:SiteMapPath ID="SiteMapPath1" runat="server">
+                </asp:SiteMapPath>
+            </div>
+            <div id="usuario">
+                <img src="../Images/usuario.gif" alt="usuario" style="vertical-align: middle;" /><asp:LoginName
+                    ID="LoginName1" runat="server" Style="vertical-align: middle;" CssClass="explicacion" />
+            </div>
+            <div id="info">
+                <span class="explicacion" style="vertical-align: middle;">Solicitar Información</span><img
+                    id="imgInfo" src="../Images/info.png" style="vertical-align: middle;" alt="información"
+                    onmouseout="CambiarTamaño('sal')" onmouseover="CambiarTamaño('entra')" />
+            </div>
+        </div>
+        <div id="menuMaster">
+            <asp:TreeView ID="MenuTree" runat="server" DataSourceID="dsMapaWeb" CssClass="AspNet-Menu"
+                ExpandDepth="2" NodeIndent="0" ShowExpandCollapse="False">
+                <ParentNodeStyle CssClass="AspNet-Menu-Parent" />
+                <HoverNodeStyle CssClass="AspNet-Menu-Hover" />
+                <SelectedNodeStyle CssClass="AspNet-Menu-Selected" />
+                <RootNodeStyle CssClass="AspNet-Menu-Root" ImageUrl="~/Images/Home.png" />
+                <LeafNodeStyle CssClass="AspNet-Menu-Leaf" HorizontalPadding="10px" />
+            </asp:TreeView>
+        </div>
+        <div id="principal">
+            <asp:ContentPlaceHolder ID="cphMain" runat="server">
+            </asp:ContentPlaceHolder>
+        </div>
+        
+    </div>
+    <asp:SiteMapDataSource ID="dsMapaWeb" runat="server" />
+    </form>
+</body>
+</html>

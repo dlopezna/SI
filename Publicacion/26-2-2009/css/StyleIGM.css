@@ -1,0 +1,192 @@
+﻿body
+{
+	background-color: #e8f4ff;
+	text-align:center;
+}
+#login, #error
+{
+	position: absolute;	
+	left:50%;
+	top:35%;
+	width:300px;
+	height:200px;
+	margin-left:-150px;
+	margin-top:-100px;	
+	background: #e8f4ff;
+	border: solid 1px #94c9ff;		
+	z-index:100;
+	}
+#cabecera
+{
+position:relative;
+width: 940px;
+margin-top:0px;
+	}
+#marco
+{
+	background: White; 
+	border: solid 2px silver; 
+	width: 950px; 
+	text-align: left; 
+	margin-top: 5px;
+	vertical-align:top;
+}
+#menuMaster
+{
+	position:relative;
+	vertical-align:top;
+	width:18%;
+	float:left;
+	height:540px;
+}
+#principal
+{
+	border: solid 0px #94c9ff;
+	vertical-align:top;
+	width:80%;
+	position:relative;
+	float:left;
+	height:540px;
+	}
+	
+#superior
+{
+	width:100%;
+	border-color:Scrollbar;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+	z-index:0;
+	}
+#inferior
+{
+	width:100%;
+	border-color:Scrollbar;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+}
+#titular
+{
+	border: solid 1px #94c9ff;
+	margin: 3px;
+	padding: 5px;
+	vertical-align: middle;
+	background-color: #E4E4E4;
+	font-family: Verdana;
+	color: #003160;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+.subtitular
+{
+	border: solid 1px #94c9ff;
+	margin: 1px;
+	padding: 2px;
+	vertical-align: middle;
+	background-color: #F0F0F0;
+	font-family: Verdana;
+	color: #003160;
+	text-transform: capitalize;
+	font-size: small;
+	font-weight: bold;
+}
+
+
+#menu
+{
+	border: solid 1px #94c9ff;
+	margin: 3px;
+	padding: 5px;
+	vertical-align: middle;
+	background-color: #E4E4E4;
+	font-family: Verdana;
+	color: #003160;
+}
+#centro
+	{
+		position: relative;
+		margin:1px;
+		border: solid 1px #EAEAEA;
+		float:left;
+		z-index:-10;
+		}
+		
+#izda
+{
+	position: relative;
+	width: 33%;
+	border: 1px solid #EAEAEA;
+	float: left;
+	margin: 1px;
+}
+#dcha
+{
+	position:relative;
+	width:65%;
+	border: solid 1px #EAEAEA;
+	float:left;
+	margin:1px;
+}
+#inventario
+{
+	border: solid 0px #94c9ff;
+	float:left;
+	margin:3px;
+	}
+
+#niveles
+{
+	width:40%;
+	border-color:Scrollbar;
+	float:left;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+}
+
+#contenido
+{
+	border: 1px solid Scrollbar;
+	float:left;
+	width:55%;
+	margin-top: 5px;
+	margin-left:5px;
+	
+}
+
+	#divIncidencia
+	{
+		margin:5px;
+		padding:5px;
+		border: solid 1px #94c9ff;
+		z-index:100;
+		background-color:#e8f4ff;
+		width:96%;
+	}
+		
+#upd_progress
+{
+	vertical-align:middle;
+	text-align:center;
+	position:absolute; 
+	background-color:Silver;
+	height:100%; 
+	width: 100%;
+	z-index: 100;
+	float:left; 
+	margin-top:0;
+	filter: alpha(opacity=40);
+	opacity: .4;
+	}
+	
+.altaInventario
+{
+	background-color:#e8f4ff;
+	border: solid 1px #94c9ff;
+	padding:5px;
+	
+	}

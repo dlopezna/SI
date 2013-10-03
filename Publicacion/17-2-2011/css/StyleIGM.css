@@ -1,0 +1,266 @@
+﻿body
+{
+	background-color: #e8f4ff;
+	text-align:center;
+	font-family: Verdana,  Lucida grande, Tahoma, arial, Sans-Serif;
+    font-size: 12px;
+    margin: 0;
+    padding: 0;
+}
+#login, #error
+{
+	position: absolute;	
+	left:50%;
+	top:35%;
+	width:300px;
+	height:200px;
+	margin-left:-150px;
+	margin-top:-100px;	
+	background: #e8f4ff;
+	border: solid 1px #94c9ff;		
+	z-index:100;
+	}
+#marco
+{
+	padding:0px;
+	background-color:#ffffff;
+	border: solid 2px silver; 
+	width: 950px; 
+	text-align: left;
+	margin:auto; 
+	margin-top: 5px;
+	vertical-align:top;
+	height:auto;
+}
+#cabecera
+{
+width: 950px;
+margin-top:0px;
+}
+#logo
+{
+	margin-left: 0px;
+	float: left;
+}
+#nombresite
+{
+	margin-left: 30px; 
+	float: left;
+}
+#usuario
+{
+	margin-left: 226px; 
+	vertical-align: text-top;
+    float: left;
+}
+#info
+{
+	margin-left: 750px; 
+	vertical-align: text-top;
+}
+#menuMaster
+{
+	vertical-align:top;
+	width:18%;
+	float:left;
+	height:540px;
+	clear:left;
+}
+#principal
+{
+	position:relative;
+	vertical-align:top;
+	width:80%;
+	float:left;
+}
+	
+#superior
+{
+	width:100%;
+	border-color:Scrollbar;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+	z-index:0;
+	}
+#inferior
+{
+	width:100%;
+	border-color:Scrollbar;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+}
+#titular
+{
+	border: solid 1px #94c9ff;
+	margin: 3px;
+	padding: 5px;
+	vertical-align: middle;
+	background-color: #E4E4E4;
+	color: #003160;
+	text-decoration: underline;
+	text-transform: capitalize;
+}
+.subtitular
+{
+	border: solid 1px #94c9ff;
+	margin: 1px;
+	padding: 2px;
+	vertical-align: middle;
+	background-color: #F0F0F0;
+	color: #003160;
+	text-transform: capitalize;
+	font-size: small;
+	font-weight: bold;
+}
+
+
+.menu
+{
+	border: solid 1px #94c9ff;
+	margin: 3px;
+	padding: 5px;
+	vertical-align: middle;
+	background-color: #E4E4E4;
+	color: #003160;
+	text-align:right;
+}
+.centro
+	{
+		position: relative;
+		margin:1px;
+		border: solid 1px #EAEAEA;
+		float:left;
+		}
+		
+#izda
+{
+	position: relative;
+	width: 33%;
+	border: 1px solid #EAEAEA;
+	float: left;
+	margin: 1px;
+}
+#dcha
+{
+	position:relative;
+	width:65%;
+	border: solid 1px #EAEAEA;
+	float:left;
+	margin:1px;
+}
+#inventario
+{
+	border: solid 0px #94c9ff;
+	float:left;
+	margin:3px;
+	}
+
+#niveles
+{
+	width:40%;
+	border-color:Scrollbar;
+	float:left;
+	border-width:1px;
+	margin-right: 0px;
+	margin-top: 5px;
+	border-style:solid;
+}
+
+#contenido
+{
+	border: 1px solid Scrollbar;
+	float:left;
+	width:55%;
+	margin-top: 5px;
+	margin-left:5px;
+	
+}
+
+	#divIncidencia
+	{
+		margin:5px;
+		padding:5px;
+		border: solid 1px #94c9ff;
+		z-index:100;
+		background-color:#e8f4ff;
+	}
+		
+#upd_progress
+{
+	vertical-align:middle;
+	text-align:center;
+	position:fixed; 
+	background-color:Silver;
+	height:100%; 
+	width: 100%;
+	z-index: 100;
+	float:left;
+	clear:left; 
+	margin-top:0;
+	filter: alpha(opacity=40);
+	opacity: .4;
+	top:0px;
+	left:0px;
+	}
+	
+.altaInventario
+{
+	background-color:#e8f4ff;
+	border: solid 1px #94c9ff;
+	padding:5px;
+	
+	}
+	
+	.ui-datepicker .ui-datepicker-prev{
+position:absolute;
+top:-1px;
+left:2px;
+width:1.1em;
+}
+.ui-datepicker .ui-datepicker-next 
+{
+position:absolute;
+top:-1px;
+right:6px;
+width:1.1em;
+}
+
+#ui-datepicker-div
+{
+font-size:12px;
+}
+
+
+/*------------------ORDENES TRABAJO----------------------------*/	
+
+.accionOrden,.idOrden,.fechaOrden,.duracionOrden,.observacionOrden,.observacionOrdenCerrada{display:inline-block;padding:2px;margin:1px;vertical-align:top;}
+.accionOrden{width:54px;text-align:center;}
+.idOrden{width:85px;text-align:center;}
+.fechaOrden{width:127px;text-align:center;}
+.observacionOrden{width:313px;}
+.duracionOrden{width:120px;}
+.observacionOrdenCerrada{width:268px;}
+.sinIncidencias{padding:10px;font-weight:bold;font-size:medium;text-align:center;}
+
+
+.accionIncidencia,.idIncidencia,.fechaIncidencia,.duracionIncidencia,.observacionIncidencia,.observacionIncidenciaCerrada, .estadoIncidencia{display:inline-block;padding:2px;margin:1px;vertical-align:top;}
+.accionIncidencia{width:54px;text-align:center; margin: 1px;
+    padding: 2px;}
+.idIncidencia{width:20px;text-align:center; margin: 1px;
+    padding: 2px;}
+.fechaIncidencia{width:127px;text-align:center; margin: 1px;
+    padding: 2px;}
+.observacionIncidencia{width:193px; margin: 1px;
+    padding: 2px;}
+.duracionIncidencia{width:77px; margin: 1px;
+    padding: 2px;}
+.observacionIncidenciaCerrada{width:268px; margin: 1px;
+    padding: 2px;}
+.sinIncidencias{padding:10px;font-weight:bold;font-size:medium;text-align:center; margin: 1px;
+    padding: 2px;}
+.estadoIncidencia{width:75px; margin: 1px;
+    padding: 2px;}
